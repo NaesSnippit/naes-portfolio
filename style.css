@@ -1,0 +1,90 @@
+/* Set a global box-sizing and reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f9eef9;
+  color: #6c6c6c;
+}
+
+/* Header styles */
+header {
+  background-color: #b393d8;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+  color: #f7cdf7;
+}
+
+/* Main section styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Section title styles */
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #7da7cd;
+}
+
+/* Project item styles */
+.project {
+  margin-bottom: 40px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #b393d8;
+}
+
+.project p {
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #b393d8;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  main {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  section h2 {
+    font-size: 22px;
+  }
+
+  .project h3 {
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}

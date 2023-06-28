@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JYNXXED.</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Came here for more?</h1>
+    <img src="profile_picture.jpg" alt="Profile Picture">
+  </header>
+
+  <section id="music">
+    <audio autoplay loop>
+      <source src="background_music.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+
+<section>
+  <h2>Videos</h2>
+  <div class="scroll-container">
+    <iframe src="https://www.youtube.com/watch?v=dIvS9sEywY4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/watch?v=4aaQOZGuSzI" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/watch?v=ui2z-Wo_tR0" frameborder="0" allowfullscreen></iframe>
+    <!-- Add more videos here -->
+  </div>
+</section>
+
+
+  </section>
+
+  <section>
+    <h2>Images</h2>
+    <div class="scroll-container">
+      <!-- Add images here -->
+    </div>
+  </section>
+
+  <section>
+    <h2>MP3 Files</h2>
+    <div class="scroll-container">
+      <!-- Add MP3 files here -->
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <form action="send_email.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" required></textarea><br><br>
+
+      <input type="submit" value="Send">
+    </form>
+    <a href="log_emails.html" target="_blank">View Email Log</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Nae Snipes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
